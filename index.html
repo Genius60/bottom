@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white p-6">
+  <div class="max-w-sm mx-auto space-y-4">
+    <div class="space-y-3">
+      <!-- 7 Day Plan -->
+      <label class="flex items-center justify-between border border-gray-300 p-4 rounded-lg cursor-pointer hover:shadow">
+        <div class="flex items-center gap-3">
+          <input type="radio" name="plan" class="accent-blue-600 w-5 h-5" />
+          <span class="text-sm font-medium">7 Day Plan</span>
+        </div>
+        <div class="text-right">
+          <div class="text-xs line-through text-gray-400">US$2.00</div>
+          <div class="text-lg font-bold text-black">US$0.99 <span class="text-sm font-normal">per day</span></div>
+        </div>
+      </label>
+
+      <!-- 1 Month Plan (MOST POPULAR) -->
+      <div class="relative">
+        <div class="absolute -top-3 left-4 bg-blue-600 text-white text-xs font-bold px-2 py-0.5 rounded">MOST POPULAR</div>
+        <label class="flex items-center justify-between border-2 border-blue-600 bg-blue-50 p-4 rounded-lg cursor-pointer hover:shadow">
+          <div class="flex items-center gap-3">
+            <input type="radio" name="plan" checked class="accent-blue-600 w-5 h-5" />
+            <span class="text-sm font-medium">1 Month Plan</span>
+          </div>
+          <div class="text-right">
+            <div class="text-xs line-through text-gray-400">US$1.66</div>
+            <div class="text-lg font-bold text-black">US$0.50 <span class="text-sm font-normal">per day</span></div>
+          </div>
+        </label>
+      </div>
+
+      <!-- 3 Month Plan -->
+      <label class="flex items-center justify-between border border-gray-300 p-4 rounded-lg cursor-pointer hover:shadow">
+        <div class="flex items-center gap-3">
+          <input type="radio" name="plan" class="accent-blue-600 w-5 h-5" />
+          <span class="text-sm font-medium">3 Month Plan</span>
+        </div>
+        <div class="text-right">
+          <div class="text-xs line-through text-gray-400">US$1.00</div>
+          <div class="text-lg font-bold text-black">US$0.33 <span class="text-sm font-normal">per day</span></div>
+        </div>
+      </label>
+    </div>
+
+    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition">Get my plan</button>
+
+    <div class="text-center text-green-600 text-sm font-medium">Pay safe and secure</div>
+
+    <div class="flex justify-center items-center gap-3 mt-1 flex-wrap">
+      <img src="https://img.icons8.com/color/48/paypal.png" class="h-6" alt="PayPal" />
+      <img src="https://img.icons8.com/ios-filled/50/000000/apple-pay.png" class="h-6" alt="Apple Pay" />
+      <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" class="h-6" alt="Google Pay" />
+      <img src="https://img.icons8.com/color/48/000000/visa.png" class="h-6" alt="Visa" />
+      <img src="https://img.icons8.com/color/48/000000/mastercard.png" class="h-6" alt="Mastercard" />
+      <img src="https://img.icons8.com/color/48/000000/amex.png" class="h-6" alt="Amex" />
+    </div>
+  </div>
+</body>
+</html>
